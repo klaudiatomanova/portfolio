@@ -21,10 +21,10 @@ body {
 main {
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   text-align: center;
-
   color: black;
   font-size: 20px;
 }
@@ -34,6 +34,7 @@ a {
   padding: 20px;
   color: black;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 span {
