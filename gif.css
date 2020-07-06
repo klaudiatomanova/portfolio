@@ -38,11 +38,17 @@ main {
   padding: 20px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
 
   color: black;
   font-size: 20px;
+}
+
+img {
+  margin-top: 20px;
+  height: 90%;
+  width: 90%;
 }
 
 footer {
