@@ -5,6 +5,11 @@
     <title>Portfolio - Klaudia Tomanová</title>
     <meta name="description" content="Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Zilla+Slab+Highlight&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       href="../portfolio/visual_design_project/visual design 6 images/coffee_logo/coffee_logo_blue.svg"
@@ -12,33 +17,93 @@
     <link rel="stylesheet" href="../portfolio/style.css" />
   </head>
   <body>
-    <header>Visual Design</header>
-    <section>
-      <a href="../portfolio/mockups.html" target="_blank"
-        ><span>MOCKUPS</span></a
-      >
-      <a href="../portfolio/images.html" target="_blank"><span>IMAGES</span></a>
-      <a href="../portfolio/gif.html" target="_blank"><span>GIF</span></a>
-    </section>
-    <header>Web Development</header>
-    <section>
+    <header>
+      <div class="nav">
+        <div class="name">
+          <a href="./index.html">Klaudia Tomanova</a>
+        </div>
+        <label id="label" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="topnav">
+          <a href="./about.html">ABOUT</a>
+          <a href="./contact.html">CONTACT</a>
+          <!--  <a href="#">UX/UI</a>
+          <a href="#">GRAPHIC DESIGN</a>
+          <a href="#">MOTION DESIGN</a>
+          <a href="#">WEB DEVELOPMENT</a>
+          <a href="#">BLOG</a>
+           -->
+        </div>
+      </div>
+    </header>
+    <main>
       <a
+        class="section-container odeon"
+        href="../portfolio/myodeonapp.html"
+        target="_blank"
+      >
+        <h3>myOdeon App Remake</h3>
+      </a>
+      <a
+        class="section-container beauty-salon"
+        href="http://angeliqcosmetics.com/"
+        target="_blank"
+      >
+        <h3 id="JavaScript">
+          Beauty Salon Web Dev <br />
+          / HTML CSS JS
+        </h3>
+      </a>
+      <a
+        class="section-container mockups"
+        href="../portfolio/mockups.html"
+        target="_blank"
+      >
+        <h3>Landing Page Design Mockups</h3>
+      </a>
+      <a
+        class="section-container ux-project"
+        href="../portfolio/uxcoffeecompany.html"
+        target="_blank"
+      >
+        <h3>UX Project Coffee Company</h3>
+      </a>
+      <a
+        class="section-container javascript"
         href="https://giacomosorbi.github.io/klaudia-tomanova-module-i/index.html"
         target="_blank"
-        ><span>HTML/CSS/JavaScript</span></a
       >
+        <h3 id="JavaScript">HTML/CSS/JavaScript</h3>
+      </a>
       <a
+        class="section-container react"
         href="https://giacomosorbi.github.io/klaudia-tomanova-module-ii/?fbclid=IwAR1Ymdmb7NkIHfyk1FGV8Q2abhHdG1_1dXdOvX8RLyNYZIeg_ta53yleN-Y"
         target="_blank"
-        ><span>HTML/CSS/ReactJS</span></a
       >
-      <a href="http://angeliqcosmetics.com/" target="_blank"
-        ><span>HTML/CSS/JavaScript</span></a
+        <h3>HTML/CSS/ReactJS</h3>
+      </a>
+      <a
+        class="section-container spa-design"
+        href="../portfolio/shirtdesign.html"
+        target="_blank"
       >
-      <a href="https://klaudiatomanova.wordpress.com/" target="_blank"
-        ><span>Blog</span></a
+        <h3>T-shirt Design</h3>
+      </a>
+      <a
+        class="section-container blog"
+        href="../portfolio/blog.html"
+        target="_blank"
       >
-    </section>
+        <h3>Blog</h3>
+      </a>
+      <a
+        class="section-container dissertation"
+        href="../portfolio/visual_design_project/diss.pdf"
+        target="_blank"
+      >
+        <h3 id="dissertation">MA Dissertation</h3>
+      </a>
+    </main>
     <footer>All Rights reserved by ©Klaudia Tomanova 2020</footer>
   </body>
 </html>

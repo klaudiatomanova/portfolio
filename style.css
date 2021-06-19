@@ -2,63 +2,204 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  margin-top: 50px;
-  font-size: 30px;
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
+.nav {
+  font-size: 12px;
+  text-align: right;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  z-index: 1;
+}
+
+.topnav {
+  margin: 0 30px 0 0;
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav a {
+  clear: right;
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  line-height: 70px;
+}
+
+.name {
+  position: absolute;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Zilla Slab Highlight", cursive;
+}
+
+label {
+  margin: 0 30px 0 0;
+  font-size: 40px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
 }
 
 body {
   height: 100vh;
-}
-
-section {
-  padding: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-  text-align: center;
-  color: black;
-  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 a {
   text-decoration: none;
-  padding: 20px;
   color: black;
   cursor: pointer;
-  margin-top: 15px;
 }
 
-span {
-  border: solid black;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px grey;
+.section-container {
+  max-width: 50rem;
+  min-width: 24rem;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
 }
 
-span:hover {
-  background-color: rgb(209, 205, 205);
-  transition: 0.4s;
-  box-shadow: none;
+.section-container:hover {
+  background-color: black;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  position: absolute;
+  align-self: center;
+  background-color: white;
+  margin: auto;
+  width: 40%;
+  max-width: 180px;
+  padding: 10px;
+  text-align: center;
+}
+
+.mockups {
+  background-color: #ffc600;
+}
+
+.mockups:hover {
+  background-image: url("./visual_design_project/title_images/mockups.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.odeon {
+  background-color: #072ac8;
+}
+
+.odeon:hover {
+  background-image: url("./visual_design_project/title_images/odeon.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.spa-design {
+  background-color: #a2d6f9;
+}
+
+.spa-design:hover {
+  background-image: url("./visual_design_project/title_images/design\ tričko\ SPA.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.beauty-salon {
+  background-color: #1e96fc;
+}
+
+.beauty-salon:hover {
+  background-image: url("./visual_design_project/title_images/angeliq2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.dissertation {
+  background-color: #fcf300;
+}
+
+.dissertation:hover {
+}
+
+.ux-project {
+  background-color: #f21b3f;
+}
+
+.ux-project:hover {
+  background-image: url("./visual_design_project/title_images/IMG_9169.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.javascript {
+  background-color: #08bdbd;
+}
+
+.javascript:hover {
+  background-image: url("./visual_design_project/title_images/just_coffee.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#JavaScript {
+  max-width: 220px;
+}
+
+.react {
+  background-color: #abff4f;
+}
+
+.react:hover {
+  background-image: url("./visual_design_project/title_images/posun_dalej.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.blog {
+  background-color: #29bf12;
+}
+
+.blog:hover {
+  background-image: url("./visual_design_project/title_images/blog.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   border: solid grey;
   background-color: grey;
   padding: 20px;
   color: white;
-  position: fixed;
   bottom: 0;
   width: 100vw;
 }
