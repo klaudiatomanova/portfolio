@@ -80,6 +80,7 @@ main {
   flex-direction: row;
   max-width: 100vw;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .mockup-img {

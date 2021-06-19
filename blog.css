@@ -98,9 +98,14 @@ main {
 
 .blog-button {
   border: solid black;
+  cursor: pointer;
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 50px;

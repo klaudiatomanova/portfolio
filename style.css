@@ -142,7 +142,8 @@ h3 {
   background-color: #fcf300;
 }
 
-.dissertation:hover {
+#dissertation {
+  width: 100% !important;
 }
 
 .ux-project {
