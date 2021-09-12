@@ -52,7 +52,7 @@ label {
 
 body {
   height: 100vh;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -72,12 +72,17 @@ main {
 }
 
 div p {
-  margin: 0 20%;
+  margin: 0 20% 1rem 20%;
   text-align: left;
 }
 
 .odeon-app {
   max-width: 70%;
+}
+
+.sub-heading {
+  align-self: flex-start;
+  padding: 0 0 1rem 10%;
 }
 
 footer {

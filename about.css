@@ -52,7 +52,7 @@ label {
 
 body {
   height: 100vh;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -113,4 +113,14 @@ footer {
   background-color: grey;
   padding: 20px;
   color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  main {
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0 10%;
+  }
 }
